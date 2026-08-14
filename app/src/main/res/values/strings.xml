@@ -2,4 +2,31 @@
     <string name="app_name">TxtView</string>
     <string name="name_text">GM Sourov</string>
     <string name="age_text">24 years old</string>
+    <string name="largeText">
+        Computer Science and Engineering, commonly known as CSE, is one of the most important and rapidly growing fields of modern technology.
+It is a field that combines computer science, mathematics, programming, and engineering principles.
+CSE teaches students how computers work and how software and digital systems are developed.
+Programming is one of the fundamental skills in CSE.
+Students learn languages such as C, C++, Java, Python, and Kotlin.
+Through programming, students learn how to solve real-world problems using computers.
+Data Structures and Algorithms are also very important parts of CSE.
+They help students develop logical thinking and efficient problem-solving skills.
+Students also learn about databases and how information can be stored and managed efficiently.
+Web development is another popular area of CSE.
+        \n \n
+It allows developers to create websites and web applications for different purposes.
+Mobile application development is also an important career path for CSE students.
+Android and iOS applications are used by millions of people around the world.
+CSE students can learn technologies such as Android, Jetpack Compose, Flutter, and React Native.
+Software engineering teaches students how to design, develop, test, and maintain software.
+Operating Systems help students understand how computers manage hardware and software resources.
+Computer networks explain how different devices communicate with each other.
+Cybersecurity is another important field that focuses on protecting systems and information from attacks.
+Artificial Intelligence and Machine Learning are becoming increasingly important in the technology industry.
+These technologies allow computers to learn from data and perform intelligent tasks.
+Cloud computing has also created many new opportunities for software professionals.
+Companies use cloud platforms to store data and run applications efficiently.
+CSE students can also learn about system design to understand how large software systems are built.
+
+    </string>
 </resources>
