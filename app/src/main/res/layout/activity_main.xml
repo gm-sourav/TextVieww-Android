@@ -5,18 +5,37 @@
     android:id="@+id/main"
     android:gravity="center"
     android:orientation="vertical"
+    android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:textColorHighlight="@android:color/holo_green_dark"
         android:text="@string/name_text"
 
         android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@android:color/holo_green_dark"
         />
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/age_text"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_green_dark"
+
+        />
+
 
 </LinearLayout>
