@@ -3,51 +3,52 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:orientation="vertical"
-    android:padding="10dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
-<!--    <TextView-->
-<!--        android:id="@+id/textview1"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textview1"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
 
-<!--        android:textIsSelectable="true"-->
-<!--        android:textColorHighlight="@android:color/holo_green_dark"-->
-<!--        android:text="@string/name_text"-->
+    <!--        android:textIsSelectable="true"-->
+    <!--        android:textColorHighlight="@android:color/holo_green_dark"-->
+    <!--        android:text="@string/name_text"-->
 
-<!--        android:textSize="30sp"-->
-<!--        android:textStyle="bold"-->
-<!--        android:textColor="@android:color/holo_green_dark"-->
+    <!--        android:textSize="30sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="@android:color/holo_green_dark"-->
 
-<!--        />-->
+    <!--        />-->
 
 
-<!--    <TextView-->
-<!--        android:id="@+id/textview2"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/textview2"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
 
-<!--        android:text="@string/age_text"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="italic"-->
-<!--        android:textColor="@android:color/holo_green_dark"-->
-<!--        android:paddingBottom="10dp"-->
-<!--        />-->
+    <!--        android:text="@string/age_text"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="italic"-->
+    <!--        android:textColor="@android:color/holo_green_dark"-->
+    <!--        android:paddingBottom="10dp"-->
+    <!--        />-->
 
-<!--    <ScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:padding="10dp">-->
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:padding="10dp">-->
 
-<!--        <TextView-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="@string/largeText"-->
-<!--            android:textSize="20sp" />-->
-<!--    </ScrollView>-->
+    <!--        <TextView-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="@string/largeText"-->
+    <!--            android:textSize="20sp" />-->
+    <!--    </ScrollView>-->
 
 
     <TextView
@@ -55,14 +56,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="GM Sourav"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/agetextViewId"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:textSize="20sp"/>
+        android:background="#132BB0"
+        android:textSize="20sp" />
 
 
 </LinearLayout>
