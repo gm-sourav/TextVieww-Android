@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         nameTextView = findViewById(R.id.nametextViewId)
         ageTextView = findViewById(R.id.agetextViewId)
-        nameTextView.text = "Mitua Afrin Prithibi"
+        nameTextView.text = "Gm Sourov"
         ageTextView.text = "23 years old"
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
