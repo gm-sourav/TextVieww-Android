@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     private lateinit var nameTextView : TextView;
 
 
+
+
     private lateinit var ageTextView: TextView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
